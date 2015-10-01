@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com" />
+           fetch="git://aosp.tuna.tsinghua.edu.cn/android/" />
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -45,7 +45,6 @@
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
-  <!--project path="external/fsl_imx_omx" name="android_external_fsl_imx_omx" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" /-->
   <project path="external/fsl_vpu_omx" name="android_external_fsl_vpu_omx" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
   <project path="packages/apps/fsl_imx_demo" name="android_packages_apps_fsl_imx_demo" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
 
