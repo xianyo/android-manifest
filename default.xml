@@ -29,7 +29,7 @@
   <project path="bootable/bootloader/uboot-imx" name="u-boot-imx" revision="xianyo-imx6_kk4.4.2_1.0.0-ga" remote="xianyo-osc" />
 
 <!-- Freescale proprietary -->
-  <project path="device/fsl" name="android_device_fsl" remote="xianyo-osc" revision="xianyo-imx6_kk4.4.2_1.0.0-ga" />
+  <project path="device/fsl-xianyo" name="android_device_fsl-xianyo" remote="xianyo-osc" revision="xianyo-imx6_kk4.4.2_1.0.0-ga" />
   <project path="hardware/imx" name="android_hardware_imx" remote="xianyo-osc" revision="xianyo-imx6_kk4.4.2_1.0.0-ga" />
 
 <!-- Freescale updates to AOSP -->
@@ -42,6 +42,7 @@
 <!-- change end-->
 
   <!-- Freescale proprietary -->
+  <project path="device/fsl" name="android_device_fsl" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="embest-tech-github" revision="imx_kk4.4.2_1.0.0-ga" />
