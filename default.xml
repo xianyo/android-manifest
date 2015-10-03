@@ -25,7 +25,7 @@
   <project path="android" name="android-manifest" revision="xianyo-imx6_kk4.4.2_1.0.0-ga" remote="xianyo-osc" />
 
 <!-- kernel and U-Boot -->
-  <project path="kernel_imx" name="linux-imx" revision="xianyo-imx6_kk4.4.2_1.0.0-ga" remote="xianyo-osc" />
+  <project path="kernel_imx" name="linux-imx6" revision="xianyo-imx6_kk4.4.2_1.0.0-ga" remote="xianyo-osc" />
   <project path="bootable/bootloader/uboot-imx" name="u-boot-imx" revision="xianyo-imx6_kk4.4.2_1.0.0-ga" remote="xianyo-osc" />
 
 <!-- Freescale proprietary -->
