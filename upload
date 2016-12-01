@@ -1,299 +1,283 @@
 #!/bin/sh
 
 branch=$1
+dir=$(pwd)
 echo $1
+echo $dir
 
-croot
+cd $dir
 cd system/vold
 git remote add github git@github.com:xianyo/android_system_vold.git
 git push -u github $branch
 
-croot
+cd $dir
 cd system/netd
 git remote add github git@github.com:xianyo/android_system_netd.git
 git push -u github $branch
 
-croot
+cd $dir
 cd system/extras
 git remote add github git@github.com:xianyo/android_system_extras.git
 git push -u github $branch
 
-croot
+cd $dir
 cd system/core
 git remote add github git@github.com:xianyo/android_system_core.git
 git push -u github $branch
 
-croot
-cd packages/wallpapers/MusicVisualization
-git remote add github git@github.com:xianyo/android_packages_wallpapers_MusicVisualization.git
+cd $dir
+cd system/bt
+git remote add github git@github.com:xianyo/android_system_bt.git
 git push -u github $branch
 
-croot
+cd $dir
+cd system/media
+git remote add github git@github.com:xianyo/android_system_media.git
+git push -u github $branch
+
+cd $dir
+cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+git remote add github git@github.com:xianyo/arm-linux-androideabi-4.9.git
+git push -u github $branch
+
+
+cd $dir
 cd packages/apps/SoundRecorder
 git remote add github git@github.com:xianyo/android_packages_apps_SoundRecorder.git
 git push -u github $branch
 
-croot
+cd $dir
+cd packages/apps/Contacts
+git remote add github git@github.com:xianyo/android_packages_apps_Contacts.git
+git push -u github $branch
+
+cd $dir
 cd packages/apps/Settings
 git remote add github git@github.com:xianyo/android_packages_apps_Settings.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/LegacyCamera
 git remote add github git@github.com:xianyo/android_packages_apps_LegacyCamera.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/Camera2
 git remote add github git@github.com:xianyo/android_packages_apps_Camera2.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/fsl_imx_demo
 git remote add github git@github.com:xianyo/android_packages_apps_fsl_imx_demo.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/Gallery
 git remote add github git@github.com:xianyo/android_packages_apps_Gallery.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/Gallery2
 git remote add github git@github.com:xianyo/android_packages_apps_Gallery2.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/Email
 git remote add github git@github.com:xianyo/android_packages_apps_Email.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/DeskClock
 git remote add github git@github.com:xianyo/android_packages_apps_DeskClock.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/Browser
 git remote add github git@github.com:xianyo/android_packages_apps_Browser.git
 git push -u github $branch
 
-croot
+cd $dir
 cd packages/apps/Launcher2
 git remote add github git@github.com:xianyo/android_packages_apps_Launcher2.git
 git push -u github $branch
 
-croot
+cd $dir
 cd libcore
 git remote add github git@github.com:xianyo/android_libcore.git
 git push -u github $branch
 
-croot
+cd $dir
 cd hardware/ril
 git remote add github git@github.com:xianyo/android_hardware_ril.git
 git push -u github $branch
 
-croot
-cd hardware/realtek
-git remote add github git@github.com:xianyo/android_hardware_realtek.git
-git push -u github $branch
-
-croot
-cd hardware/qcom/wlan
-git remote add github git@github.com:xianyo/android_hardware_qcom_wlan.git
-git push -u github $branch
-
-croot
+cd $dir
 cd hardware/imx
 git remote add github git@github.com:xianyo/android_hardware_imx.git
 git push -u github $branch
 
-croot
+cd $dir
 cd hardware/libhardware_legacy
 git remote add github git@github.com:xianyo/android_hardware_libhardware_legacy.git
 git push -u github $branch
 
-croot
+cd $dir
 cd hardware/libhardware
 git remote add github git@github.com:xianyo/android_hardware_libhardware.git
 git push -u github $branch
 
-croot
+cd $dir
 cd hardware/broadcom/wlan
 git remote add github git@github.com:xianyo/android_hardware_broadcom_wlan.git
 git push -u github $branch
 
-croot
+cd $dir
 cd hardware/broadcom/libbt
 git remote add github git@github.com:xianyo/android_hardware_broadcom_libbt.git
 git push -u github $branch
 
-croot
+cd $dir
 cd frameworks/base
 git remote add github git@github.com:xianyo/android_frameworks_base.git
 git push -u github $branch
 
-croot
+cd $dir
 cd frameworks/av
 git remote add github git@github.com:xianyo/android_frameworks_av.git
 git push -u github $branch
 
-croot
+cd $dir
 cd frameworks/native
 git remote add github git@github.com:xianyo/android_frameworks_native.git
 git push -u github $branch
 
-croot
-cd frameworks/webview
-git remote add github git@github.com:xianyo/android_frameworks_webview.git
+cd $dir
+cd frameworks/ex
+git remote add github git@github.com:xianyo/android_frameworks_ex.git
 git push -u github $branch
 
-croot
+
+cd $dir
+cd frameworks/support
+git remote add github git@github.com:xianyo/android_frameworks_support.git
+git push -u github $branch
+
+cd $dir
 cd frameworks/opt/telephony
 git remote add github git@github.com:xianyo/android_frameworks_opt_telephony.git
 git push -u github $branch
 
-croot
+cd $dir
 cd frameworks/opt/net/ethernet
 git remote add github git@github.com:xianyo/android_frameworks_opt_net_ethernet.git
 git push -u github $branch
 
-croot
-cd dalvik
-git remote add github git@github.com:xianyo/android_dalvik.git
-git push -u github $branch
-
-croot
+cd $dir
 cd build
 git remote add github git@github.com:xianyo/android_build.git
 git push -u github $branch
 
-croot
+cd $dir
 cd bionic
 git remote add github git@github.com:xianyo/android_bionic.git
 git push -u github $branch
 
-croot
+cd $dir
 cd bootable/recovery
 git remote add github git@github.com:xianyo/android_bootable_recovery.git
 git push -u github $branch
 
-croot
+cd $dir
 cd external/wpa_supplicant_8
 git remote add github git@github.com:xianyo/android_external_wpa_supplicant_8.git
 git push -u github $branch
 
-croot
-cd external/tremolo
-git remote add github git@github.com:xianyo/android_external_tremolo.git
-git push -u github $branch
 
-
-croot
+cd $dir
 cd external/tinyalsa
 git remote add github git@github.com:xianyo/android_external_tinyalsa.git
 git push -u github $branch
 
-croot
-cd external/sonivox
-git remote add github git@github.com:xianyo/android_external_sonivox.git
-git push -u github $branch
 
-croot
+cd $dir
 cd external/skia
 git remote add github git@github.com:xianyo/android_external_skia.git
 git push -u github $branch
 
 
-croot
+cd $dir
 cd external/ppp
 git remote add github git@github.com:xianyo/android_external_ppp.git
 git push -u github $branch
 
-croot
-cd external/powerdebug
-git remote add github git@github.com:xianyo/android_external_powerdebug.git
-git push -u github $branch
 
-croot
+cd $dir
 cd external/ntfs-3g
 git remote add github git@github.com:xianyo/android_external_ntfs-3g.git
 git push -u github $branch
 
-croot
+cd $dir
 cd external/mtd-utils
 git remote add github git@github.com:xianyo/android_external_mtd-utils.git
 git push -u github $branch
 
-croot
-cd external/linux-tools-perf
-git remote add github git@github.com:xianyo/android_external_linux-tools-perf.git
-git push -u github $branch
-
-croot
+cd $dir
 cd external/linux-test
 git remote add github git@github.com:xianyo/android_external_linux-test.git
 git push -u github $branch
 
-croot
+cd $dir
 cd external/linux-lib
 git remote add github git@github.com:xianyo/android_external_linux-lib.git
 git push -u github $branch
 
-croot
+cd $dir
 cd external/linux-firmware-imx
 git remote add github git@github.com:xianyo/android_external_linux-firmware-imx.git
 git push -u github $branch
 
-croot
-cd external/libselinux
-git remote add github git@github.com:xianyo/android_external_libselinux.git
-git push -u github $branch
 
-croot
-cd external/libpng
-git remote add github git@github.com:xianyo/android_external_libpng.git
-git push -u github $branch
-
-croot
+cd $dir
 cd external/kernel-headers
 git remote add github git@github.com:xianyo/android_external_kernel-headers.git
 git push -u github $branch
 
-croot
-cd external/fsl_vpu_omx
-git remote add github git@github.com:xianyo/android_external_fsl_vpu_omx.git
-git push -u github $branch
 
-croot
+cd $dir
 cd external/dnsmasq
 git remote add github git@github.com:xianyo/android_external_dnsmasq.git
 git push -u github $branch
 
-croot
-cd external/busybox
-git remote add github git@github.com:xianyo/android_external_busybox.git
-git push -u github $branch
 
-croot
-cd external/acc
-git remote add github git@github.com:xianyo/android_external_acc.git
-git push -u github $branch
-
-croot
-cd external/bluetooth/bluedroid
-git remote add github git@github.com:xianyo/android_external_bluetooth_bluedroid.git
-git push -u github $branch
-
-croot
+cd $dir
 cd device/fsl
 git remote add github git@github.com:xianyo/android_device_fsl.git
 git push -u github $branch
 
-croot
+cd $dir
 cd device/fsl-proprietary
 git remote add github git@github.com:xianyo/android_device_fsl-proprietary.git
 git push -u github $branch
 
+cd $dir
+cd device/fsl-codec
+git remote add github git@github.com:xianyo/android_device_fsl-codec.git
+git push -u github $branch
 
+cd $dir
+cd device/wfd-proprietary
+git remote add github git@github.com:xianyo/android_device_wfd-proprietary.git
+git push -u github $branch
+
+cd $dir
+cd kernel_imx
+git remote add github git@github.com:xianyo/linux-imx6.git
+git push -u github $branch
+
+cd $dir
+cd bootable/bootloader/uboot-imx
+git remote add github git@github.com:xianyo/u-boot-imx.git
+git push -u github $branch
+
+cd $dir
 
