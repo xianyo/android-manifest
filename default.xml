@@ -80,8 +80,9 @@
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="xianyo-github"  />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="xianyo-github"  />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="xianyo-github"  />
-  <project path="packages/apps/Settings" name="android_packages_apps_settings" remote="xianyo-github"  />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xianyo-github"  />
   <project path="packages/wallpapers/MusicVisualization" name="android_packages_wallpapers_MusicVisualization" remote="xianyo-github"/>
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="xianyo-github"/>
 
   <!-- Unchanged AOSP projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -400,7 +401,6 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
