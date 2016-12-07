@@ -13,8 +13,8 @@
  
 
   <!-- projects added by Freescale -->
-  <project path="bootable/bootloader/uboot-imx" name="u-boot-imx"  remote="xianyo-github" />
-  <project path="kernel_imx" name="linux-imx6"  remote="xianyo-github" />
+  <project path="bootable/bootloader/uboot-imx" name="u-boot-imx"  revision="imx_m6.0.1_2.1.0-ga" remote="xianyo-github" />
+  <project path="kernel_imx" name="linux-imx6" revision="imx_m6.0.1_2.1.0-ga" remote="xianyo-github" />
   <project path="device/fsl" name="android_device_fsl" remote="xianyo-github"  />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="xianyo-github"  />
   <project path="device/fsl-codec" name="android_device_fsl-codec" remote="xianyo-github"  />
