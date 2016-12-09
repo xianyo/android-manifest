@@ -83,6 +83,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xianyo-github"  />
   <project path="packages/wallpapers/MusicVisualization" name="android_packages_wallpapers_MusicVisualization" remote="xianyo-github"/>
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="xianyo-github"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="refs/tags/android-4.4.3_r1" />
 
   <!-- Unchanged AOSP projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
