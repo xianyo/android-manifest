@@ -1,0 +1,8 @@
+./out
+./.repo
+.git_bak
+./sync.sh
+./renamegit.sh
+.git
+
+
